@@ -1,11 +1,8 @@
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
-
 contract LSMSOL {
+    uint256 public lastResult;
 
     function setmsg(uint256 _x) external returns (uint256){
-        
-        return _x + 10;
+        lastResult = _x + 10;
+        return lastResult;
     }
-   
 }
