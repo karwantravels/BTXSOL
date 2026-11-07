@@ -5,7 +5,7 @@ contract LSMSOL {
 
     function setmsg(uint256 _x) external returns (uint256){
         
-        return _x;
+        return _x + 10;
     }
    
 }
